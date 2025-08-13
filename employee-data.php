@@ -59,7 +59,7 @@
                   <th>Salary</th>
                   <th>Created</th>
                   <th>Updated</th>
-                  <th colspan="3">Muntiple Actions.</th>
+                  <th colspan="2">Muntiple Actions.</th>
                 </tr>
               </thead>
               <tbody>
@@ -101,9 +101,9 @@
                       <td>
                         <a href="add-employee-attendence.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-primary">Attendence</a>
                       </td>
-                      <td>
+                      <!-- <td>
                         <a href="add-employee-attendence.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-primary"><i class="bi bi-envelope-arrow-up "></i></a>
-                      </td>
+                      </td> -->
                     </tr>
                 <?php
                   }
